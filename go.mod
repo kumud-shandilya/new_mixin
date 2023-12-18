@@ -1,6 +1,6 @@
-module github.com/getporter/skeletor
+module github.com/getporter/FabricMixin
 
-go 1.19
+go 1.18
 
 // These are replace directives copied from porter
 // When you use a newer version of Porter, if you run into trouble with go mod tidy

@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/getporter/skeletor/pkg/skeletor"
+	"github.com/getporter/FabricMixin/pkg/FabricMixin"
 	"github.com/spf13/cobra"
 )
 
-func buildBuildCommand(m *skeletor.Mixin) *cobra.Command {
+func buildBuildCommand(m *FabricMixin.Mixin) *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "build",
 		Short: "Generate Dockerfile lines for the bundle invocation image",

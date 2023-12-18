@@ -4,40 +4,40 @@
     "installStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "FabricMixin": {"$ref": "#/definitions/FabricMixin"}
       },
       "required": [
-        "skeletor"
+        "FabricMixin"
       ],
       "additionalProperties": false
     },
     "upgradeStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "FabricMixin": {"$ref": "#/definitions/FabricMixin"}
       },
       "required": [
-        "skeletor"
+        "FabricMixin"
       ],
       "additionalProperties": false
     },
     "invokeStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "FabricMixin": {"$ref": "#/definitions/FabricMixin"}
       },
       "required": [
-        "skeletor"
+        "FabricMixin"
       ],
       "additionalProperties": false
     },
     "uninstallStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "FabricMixin": {"$ref": "#/definitions/FabricMixin"}
       },
       "required": [
-        "skeletor"
+        "FabricMixin"
       ],
       "additionalProperties": false
     },
@@ -74,7 +74,7 @@
         ]
       }
     },
-    "skeletor": {
+    "FabricMixin": {
       "type": "object",
       "properties": {
         "description": {

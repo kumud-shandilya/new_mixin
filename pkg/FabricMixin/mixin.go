@@ -1,4 +1,4 @@
-package skeletor
+package FabricMixin
 
 import (
 	"get.porter.sh/porter/pkg/runtime"

@@ -1,5 +1,5 @@
 install:
-  - skeletor:
+  - FabricMixin:
       description: "Invalid Input Test Case"
       args:
       - yarrrr
